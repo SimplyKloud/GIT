@@ -43,6 +43,12 @@ all the above 3 commands will add the files to staging area.
 git log //will show the commit history
 git commit -m "add to repo"v //added to local repository
 
+compare the working directory files (highlighted in red color) and staging area files (highlighted in green color)
+git diff
+compare the staging directory files and local repo files
+git diff --staged
+
+git diff --staged HEAD //compare changes of working directory with local repo
 
 
 
