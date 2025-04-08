@@ -63,6 +63,20 @@ git clone is used when the repo does not exist in our local system.
 if repo is there and we need to copy the files only, then git pull command is used.
 
 
-
+**Summary**
+create a working directory or work space in your local drive
+create the project with necessary files
+go to git bash command prompt, navigate to workspace directory and initialize the directory
+git init .
+git status
+git add .
+git commit -m "1st commit"
+Now we have to push these to remote repo
+login to github and create a repository
+create repo without adding readme file or any default files
+git remote add origin git@github.com:orgname/reponame.git
+cat .git/config //you can see the remote origin added in the config file
+git branch --set-upstream-to=origin/master master
+git push origin master
 
 
