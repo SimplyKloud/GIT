@@ -31,7 +31,8 @@ create some sample files
 
 
 **Git Stages**
-Working directory >> (git add) >> Staging or Index area >> (git commit) >> Repository [Local Repo]
+Working directory >> (git add) >> Staging or Index area >> (git commit) >> Repository [Local Repo] >> git push >> Remote Repo
+Remote Repo >> git clone/pull >> working directory
 
 git status
 git file1 file2 file3
@@ -49,6 +50,18 @@ compare the staging directory files and local repo files
 git diff --staged
 
 git diff --staged HEAD //compare changes of working directory with local repo
+
+git clone <repo url> //it will copy the remote repo to our working directory
+after you work on the changes, push the code to remote repo
+git status
+git add .
+git commit -m "added files"
+git push origin master
+
+**git clone vs git pull**
+git clone is used when the repo does not exist in our local system.
+if repo is there and we need to copy the files only, then git pull command is used.
+
 
 
 
