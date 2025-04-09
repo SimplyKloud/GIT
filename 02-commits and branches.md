@@ -44,6 +44,8 @@ Whenever more than one developer change the same file and same line of code, the
 In this case, both developer sit togethere and manually edit the file and decide which line of code should be comitted.
 
 ### Forking a Repository
+git clone will clone the repo from remote i.e. from github account to local machine
+forking is used to clone repo from one github account to another github account.
 
 
 ### Reference for branching
