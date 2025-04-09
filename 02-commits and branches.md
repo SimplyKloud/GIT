@@ -19,8 +19,34 @@ commit id is nothing but a SHA code (Secure Hash Algorithm)
 
 In github, we can see these in a graphical way without any command.
 
-# Branches
+# Brancheing Strategy
 ### Devops high level workflow
 **SCM > Build > Unit Testing > Code Quality Analysis > Code Security Analysis > Artifact Repository > Deployment Tool > Hosting Server**
+
+git branch //list all the branches available
+git branch test //create a branch with name test
+git switch - //switch to prev branch
+
+git checkout -b dev //it will create a branch called dev and also switch to dev branch
+
+To check what is the current branch
+git log // HEAD is pointing to current branch
+
+git checkout <branch name>
+
+**Merging**
+git checkout <destination branch name>
+git merge <source branch name>
+git push origin <destination branch>
+
+**Merge conflicts**
+Whenever more than one developer change the same file and same line of code, then merge conflict will happen.
+In this case, both developer sit togethere and manually edit the file and decide which line of code should be comitted.
+
+###Forking a Repository
+
+
+### Reference
+https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
 
 
