@@ -47,6 +47,15 @@ In this case, both developer sit togethere and manually edit the file and decide
 git clone will clone the repo from remote i.e. from github account to local machine
 forking is used to clone repo from one github account to another github account.
 
+login to your target account. Search the repo in search bar which you want to clone and click on fork. 
+![image](https://github.com/user-attachments/assets/4b055416-6971-4f76-b0ae-2098f31fb84e)
+
+Creating pull request
+others github account >Fork the repo> to developer github account >clone the repo> to local machine
+do changes > commit to local repo > push changes to developer github account >> push to others github account
+
+
+
 
 ### Reference for branching
 https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
