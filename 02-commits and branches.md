@@ -6,7 +6,7 @@ git diff <commit id1> <commit id2> //you can take the complete commit id or the 
   green highlighted color with + sign means those lines are deleted
   white color means no changes made to those lines
 
-git diff HEAD HEAD~1 //HEAD is latest commit and HEAD-1 is immidiate previous commit. this is not minus symbol, but tilde symbol
+* git diff HEAD HEAD~1 //HEAD is latest commit and HEAD-1 is immidiate previous commit. this is not minus symbol, but tilde symbol
 similarly HEAD~2 is 2nd previous commit and so on.
 
 **Show the changes made to a specific commit**
@@ -43,7 +43,7 @@ git push origin <destination branch>
 Whenever more than one developer change the same file and same line of code, then merge conflict will happen.
 In this case, both developer sit togethere and manually edit the file and decide which line of code should be comitted.
 
-###Forking a Repository
+### Forking a Repository
 
 
 ### Reference
