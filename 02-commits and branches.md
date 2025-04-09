@@ -46,7 +46,7 @@ In this case, both developer sit togethere and manually edit the file and decide
 ### Forking a Repository
 
 
-### Reference
+### Reference for branching
 https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
 
 
