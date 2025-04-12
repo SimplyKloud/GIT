@@ -80,3 +80,20 @@ git branch --set-upstream-to=origin/master master
 git push origin master
 
 
+### Reverting changes
+Staging area to working directory => git restore
+local Repo to working directory => git reset
+
+git restore --staged <file name>
+git reset HEAD~
+
+git checkout <file name> > to restore the changes in working directory itself
+
+No way to revert changes from remote repo. it is difficult and not recommended.
+
+
+.gitignore used to exclude certain files to be checked in to repo.
+
+inside gitignore file just write the file name with extension that needs to be excluded.
+
+
