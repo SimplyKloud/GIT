@@ -96,4 +96,12 @@ No way to revert changes from remote repo. it is difficult and not recommended.
 
 inside gitignore file just write the file name with extension that needs to be excluded.
 
+### git rebase HEAD~3
+Lets say we have 4 commits. we can see the no of commits with git log command. We need to squash all the commits into 1. in that case we use rebase command.
 
+### git fetch vs git merge
+git fetch will sync the remote repo with our local repo
+git pull will copy the files to our working directory. 
+git merge will merge the changes grom local reop with working directory
+
+If you want to retain your changes in local working directory and stil need the remote repo copy, then git fetch is used.
