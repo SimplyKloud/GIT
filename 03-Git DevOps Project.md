@@ -6,3 +6,4 @@ we will perform the below task as a devops engineer.
 4. Enable SSH based authentication
 5. Protect Prod and UAT branches
 6. 1 approval is needed to check in the code in UAT and 2 approvals needed to check in the code in Prod
+7. Build and Deploy should be successful before check-in the code to UAT and Prod branch
